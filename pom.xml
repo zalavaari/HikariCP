@@ -45,9 +45,9 @@
    </organization>
 
    <scm>
-      <connection>scm:git:git@github.com:brettwooldridge/HikariCP.git</connection>
-      <developerConnection>scm:git:git@github.com:brettwooldridge/HikariCP.git</developerConnection>
-      <url>git@github.com:brettwooldridge/HikariCP.git</url>
+      <connection>scm:git:git@github.com:zalavaari/HikariCP.git</connection>
+      <developerConnection>scm:git:git@github.com:zalavaari/HikariCP.git</developerConnection>
+      <url>git@github.com:zalavaari/HikariCP.git</url>
       <tag>HEAD</tag>
    </scm>
 
@@ -522,7 +522,7 @@
                   <!-- Sets the VM argument line used when unit tests are run. -->
                   <argLine>${surefireArgLine} ${sureFireOptions11}</argLine>
                   <!-- Skips unit tests if the value of skip.unit.tests property is true -->
-                  <skipTests>${skip.unit.tests}</skipTests>
+<!--                  <skipTests>${skip.unit.tests}</skipTests>-->
                   <reuseForks>${sureFireForks11}</reuseForks>
                </configuration>
             </plugin>
